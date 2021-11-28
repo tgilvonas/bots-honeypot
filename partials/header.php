@@ -5,8 +5,8 @@
 	<a href="/">
 		About us
 	</a>
-	<a href="/reserve-food-or-table.php">
-		Reserve food or table
+	<a href="/order-food-or-table.php">
+		Order food or reserve table
 	</a>
 	<a href="/guestbook.php">
 		Guestbook
