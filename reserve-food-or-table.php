@@ -9,7 +9,7 @@
 			<?php include 'partials/header.php'; ?>
 		</div>
 		<div class="main-content">
-			<h1>About us</h1>
+			<h1>Reserve food or table</h1>
 		</div>
 	</div>
 </body>

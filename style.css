@@ -1,0 +1,13 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.main-wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.main-menu a {
+	display: inline-block;
+	margin-right: 0.1rem;
+}
