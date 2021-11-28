@@ -5,6 +5,9 @@
 	<a href="/">
 		About us
 	</a>
+	<a href="/menu.php">
+		Menu
+	</a>
 	<a href="/order-food-or-table.php">
 		Order food or reserve table
 	</a>
