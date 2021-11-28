@@ -1,3 +1,37 @@
+<?php
+
+require 'config.php';
+
+/*
+echo '<pre>';
+var_dump($connection);
+echo '</pre>';
+*/
+
+// Create connection
+//$conn = new mysqli($servername, $username, $password, $dbname);
+/*
+$mysqli = new mysqli($connection['db_host'], $connection['db_user'], $connection['db_password'], $connection['db_name']);
+
+// Check connection
+if ($mysqli->connect_error) {
+  die("Connection failed: " . $mysqli->connect_error);
+}
+
+$sql = "SELECT * FROM `testimonial` ORDER BY `id` DESC LIMIT 20";
+$result = $mysqli->query($sql);
+
+// Fetch all
+$testimonials = $result->fetch_all(MYSQLI_ASSOC);
+
+// Free result set
+$result->free_result();
+
+$mysqli->close();
+*/
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
