@@ -19,12 +19,9 @@ CREATE TABLE IF NOT EXISTS `guestbook` (
   `email` varchar(255) DEFAULT NULL,
   `testimonial` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table bots-honeypot.guestbook: ~0 rows (approximately)
-DELETE FROM `guestbook`;
-/*!40000 ALTER TABLE `guestbook` DISABLE KEYS */;
-/*!40000 ALTER TABLE `guestbook` ENABLE KEYS */;
+-- Data exporting was unselected.
 
 -- Dumping structure for table bots-honeypot.register
 DROP TABLE IF EXISTS `register`;
@@ -32,13 +29,11 @@ CREATE TABLE IF NOT EXISTS `register` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) DEFAULT NULL,
   `email` varchar(255) DEFAULT NULL,
+  `address` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table bots-honeypot.register: ~0 rows (approximately)
-DELETE FROM `register`;
-/*!40000 ALTER TABLE `register` DISABLE KEYS */;
-/*!40000 ALTER TABLE `register` ENABLE KEYS */;
+-- Data exporting was unselected.
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

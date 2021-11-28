@@ -19,6 +19,8 @@
 				<input type="text" name="name">
 				<label>Email:</label>
 				<input type="text" name="email">
+				<label>Address:</label>
+				<input type="text" name="address">
 				<label>Password:</label>
 				<input type="password" name="password">
 				<label>Confirm password:</label>
