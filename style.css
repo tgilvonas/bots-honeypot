@@ -34,3 +34,15 @@ body {
 	width: 100%;
 	height: 1px;
 }
+
+.testimonial-form label {
+    min-width: 15%;
+    display: inline-block;
+}
+.testimonial-form textarea {
+	min-width: 70%;
+	min-height: 50px;
+}
+.testimonial-form > div {
+	margin: 0.2rem 0;
+}

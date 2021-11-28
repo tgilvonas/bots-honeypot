@@ -14,12 +14,18 @@
 				<h2>Write testimonial</h2>
 				<p>We appreciate your testimonials.</p>
 				<p class="warning"><b>Warning!</b> This page is experimental! Please <b>do not provide your sensitive personal data!</b> We respect EU General Data Protection Reglament and your privacy!</p>
-				<label>Name:</label>
-				<input type="text" name="name">
-				<label>Email:</label>
-				<input type="text" name="email">
-				<label>Testimonials:</label>
-				<textarea name="testimonial"></textarea>
+				<div class="">
+					<label>Name:</label>
+					<input type="text" name="name">
+				</div>
+				<div class="">
+					<label>Email:</label>
+					<input type="text" name="email">
+				</div>
+				<div class="">
+					<label>Your testimonial:</label>
+					<textarea name="testimonial"></textarea>
+				</div>
 				<button type="Submit">Post a testimonial!</button>
 			</form>
 		</div>
